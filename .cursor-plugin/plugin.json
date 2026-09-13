@@ -1,0 +1,33 @@
+{
+  "name": "arcangel",
+  "displayName": "Arcangel",
+  "version": "0.1.0",
+  "description": "Connect Arcangel to list patents/trademarks and draft IP matters from Cursor/Grok",
+  "author": {
+    "name": "Arcangel",
+    "email": "taihei@arcangel.ai"
+  },
+  "homepage": "https://www.arcangel.ai/connect-bot",
+  "repository": "https://github.com/Ga1axia/arcangel-cursor-plugin",
+  "license": "MIT",
+  "keywords": [
+    "arcangel",
+    "patents",
+    "trademarks",
+    "ip",
+    "mcp",
+    "grok"
+  ],
+  "logo": "assets/logo.svg",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "ARCANGEL_BOT_TOKEN": {
+        "type": "string",
+        "title": "Arcangel bot token",
+        "description": "Bearer token from https://www.arcangel.ai/connect-bot (Settings, Connect a Grok Bot). Starts with arcb_. Read and draft only. The token cannot pay or file."
+      }
+    },
+    "required": ["ARCANGEL_BOT_TOKEN"]
+  }
+}

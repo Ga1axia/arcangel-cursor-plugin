@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "arcangel": {
+      "url": "https://www.arcangel.ai/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${ARCANGEL_BOT_TOKEN}"
+      }
+    }
+  }
+}
